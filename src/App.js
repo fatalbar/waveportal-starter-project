@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { ethers } from "ethers";
 import './App.css';
 
@@ -13,13 +13,16 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        👋 Cat there!
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
-        </div>
+        I am Cat see you at 2024 ? meet and coffe time wave at me! 
 
+          
+          <iframe src="https://giphy.com/embed/mBLYrKaZJACmtum22X" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href=""></a></p>
+          
+        </div>
         <button className="waveButton" onClick={wave}>
           Wave at Me
         </button>
